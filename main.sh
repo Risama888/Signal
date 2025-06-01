@@ -44,7 +44,7 @@ function check_and_send_summary() {
 while true; do
     echo "🔍 Checking Telegram channel..."
 
-    output=$(python3 fetch_telegram.py)
+    output=$(python3 fetch.py)
     message_id=$(echo "$output" | cut -d'|' -f1)
     message_text=$(echo "$output" | cut -d'|' -f2-)
 
