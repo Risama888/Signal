@@ -7,7 +7,7 @@ def parse_file(file_path):
         lines = [line.strip() for line in f if line.strip()]
     return lines
 
-def count_keywords(lines, keywords=['BTC', 'ETH', 'LONG', 'SHORT']):
+def count_keywords(lines, keywords=['Entry', 'Target', 'Closed', 'CutLoss']):
     counter = collections.Counter()
     for line in lines:
         for kw in keywords:
