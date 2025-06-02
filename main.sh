@@ -70,6 +70,6 @@ while true; do
     # Check for daily summary
     check_and_send_summary
 
-    echo "⏳ Sleeping for 2 minutes..."
+    echo "⏳ search 1 second..."
     sleep 1
 done
