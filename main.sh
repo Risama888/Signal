@@ -71,5 +71,5 @@ while true; do
     check_and_send_summary
 
     echo "⏳ Sleeping for 2 minutes..."
-    sleep 120
+    sleep 1
 done
